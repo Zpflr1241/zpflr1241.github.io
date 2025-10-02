@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ma Young Jin",
-  title: "Sungil Infomation School student",
+  title: "Under Construction",
   description: "Portfolio website of Ma Young Jin",
   accentColor: "#1d4ed8",
   social: {
