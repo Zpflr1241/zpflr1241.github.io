@@ -180,6 +180,18 @@ import { siteConfig } from "../config";
       )
     }
     {
+      siteConfig.social?.notion && (
+        <a
+          href={`mailto:${siteConfig.social.notion}`}
+          aria-label="Notion"
+          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+        >
+        <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/notion--v1.png" alt="notion--v1"/>
+        </a>
+      )
+    }
+    <!--
+    {
       siteConfig.social?.linkedin && (
         <a
           href={siteConfig.social.linkedin}
@@ -240,8 +252,9 @@ import { siteConfig } from "../config";
             </>
           </svg>
         </a>
-      )
+      ) 
     }
+    -->
     {
       siteConfig.social?.github && (
         <a
