@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "xp144563@gmail.com",
-    notion: "https://rightful-appliance-57a.notion.site/27de23e2d3e480c380e3f842e83e032d",
+    // notion: "https://rightful-appliance-57a.notion.site/27de23e2d3e480c380e3f842e83e032d",
     // linkedin: "https://linkedin.com/in/yourprofile",
     // twitter: "https://x.com/rfitzio",
     github: "https://github.com/Zpflr1241",
