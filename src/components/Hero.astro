@@ -134,12 +134,12 @@ import { siteConfig } from "../config";
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
       >
-        Hello! 👋
+        안녕하세요! 👋
       </h2>
       <h1
         class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
       >
-        I'm <span style={{ color: siteConfig.accentColor }}
+        저는 <span style={{ color: siteConfig.accentColor }}
           >{siteConfig.name}</span
         >
       </h1>
@@ -182,11 +182,13 @@ import { siteConfig } from "../config";
     {
       siteConfig.social?.notion && (
         <a
-          href={`mailto:${siteConfig.social.notion}`}
+          href={siteConfig.social.notion}
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Notion"
           class="transition-colors duration-300 hover:text-[var(--accent-color)]"
         >
-        <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/notion--v1.png" alt="notion--v1"/>
+        <img width="24" height="24" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/external-notion-social-media-tanah-basah-basic-outline-tanah-basah.png" alt="external-notion-social-media-tanah-basah-basic-outline-tanah-basah"/>
         </a>
       )
     }

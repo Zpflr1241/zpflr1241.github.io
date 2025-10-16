@@ -12,7 +12,7 @@ export const siteConfig = {
     
   },
   aboutMe:
-    "",
+    "안녕하세요 개발자 꿈나무 마영진입니다.",
   skills: ["Java", "C#", "Javascript", "Python"],
   projects: [
     {
